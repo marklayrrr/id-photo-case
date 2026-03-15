@@ -11,7 +11,7 @@
 <text x="750" y="215" class="t s">Performance-aware dispatch: faster nodes take more tasks.</text>
 <text x="750" y="245" class="t s">Per-node traffic control prevents overrun.</text>
 <rect x="60" y="320" width="620" height="150" rx="14" ry="14" class="card good"/>
-<text x="90" y="370" class="t s">Monitoring & Alerts</text>
+<text x="90" y="370" class="t s">Monitoring &amp; Alerts</text>
 <text x="90" y="405" class="t s">Heartbeat TTL checks + email alert in seconds.</text>
 <text x="90" y="435" class="t s">Alert cooldown avoids duplicate spam.</text>
 <rect x="720" y="320" width="620" height="150" rx="14" ry="14" class="card mid"/>
