@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Distributed ID Photo Workflow Case Study</title>
+  <style>
+    :root{--bg:#0b1020;--card:#121a33;--text:#e8ecf8;--muted:#aeb8d4;--brand:#7c9bff;--ok:#22c55e;--warn:#f59e0b}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#0f1730);color:var(--text)}
+    .wrap{max-width:1100px;margin:0 auto;padding:40px 20px}
+    .hero{padding:28px;border:1px solid #2a3768;border-radius:16px;background:rgba(18,26,51,.75)}
+    h1{margin:0 0 10px;font-size:38px} h2{font-size:24px;margin:34px 0 14px}
+    p{line-height:1.7;color:var(--muted)}
+    .badge{display:inline-block;padding:8px 12px;border-radius:999px;background:#1f2937;color:#fef3c7;border:1px solid #374151;font-size:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+    .card{padding:16px;border-radius:12px;background:var(--card);border:1px solid #27345f}
+    .card b{display:block;margin-bottom:8px;color:#dfe7ff}
+    img{width:100%;border-radius:12px;border:1px solid #2c3b6d;background:#fff}
+    .note{padding:14px;border:1px solid #5b4a16;background:#2a230d;border-radius:10px;color:#fde68a}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn{padding:10px 14px;border-radius:10px;background:var(--brand);color:#fff;text-decoration:none;font-weight:600}
+    .btn.alt{background:#243156;border:1px solid #384e8f}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Distributed ID Photo Processing Engine</h1>
+      <p>Production-tested backend workflow system with smart scheduling, traffic-aware control, failover, heartbeat monitoring, and rapid horizontal scaling.</p>
+      <span class="badge">Service status: Temporarily paused for storage migration</span>
+      <div class="cta">
+        <a class="btn" href="https://www.guru.com/freelancers/mark-lay" target="_blank">Hire on Guru</a>
+        <a class="btn alt" href="#evidence">View Technical Evidence</a>
+      </div>
+    </section>
+
+    <h2>What this system solves</h2>
+    <p>Built for small teams that need reliable image workflows: stable under load, resilient when one node fails, observable in real time, and easy to scale without re-architecture.</p>
+
+    <h2>Core capabilities</h2>
+    <div class="grid">
+      <div class="card"><b>Smart Scheduling</b>Faster VPS nodes automatically take more workload to maximize throughput.</div>
+      <div class="card"><b>Traffic-Aware Control</b>Per-node traffic limits reduce overrun risk and keep operations predictable.</div>
+      <div class="card"><b>Fault Tolerance</b>Single worker failure does not stop service; scheduler routes to healthy nodes.</div>
+      <div class="card"><b>Heartbeat & Alerts</b>Node heartbeat checks trigger alert notifications within seconds.</div>
+      <div class="card"><b>Rapid Scaling</b>Scale from 4 workers to N workers by deploying worker package + dependencies.</div>
+      <div class="card"><b>Reusable Backend</b>Core engine is reusable for queue-based workflow and distributed processing projects.</div>
+    </div>
+
+    <h2 id="evidence">Technical evidence</h2>
+    <p>Non-sensitive, portfolio-safe evidence generated from real architecture and operation patterns.</p>
+
+    <h3>Architecture Diagram</h3>
+    <img src="assets/architecture_diagram.svg" alt="Architecture Diagram" />
+
+    <h3>Monitoring Log Snapshot</h3>
+    <img src="assets/monitoring_log_snapshot.svg" alt="Monitoring Log Snapshot" />
+
+    <h3>System Capability Snapshot</h3>
+    <img src="assets/system_capability_snapshot.svg" alt="System Capability Snapshot" />
+
+    <h2>Current operational note</h2>
+    <div class="note">
+      Public mini-program channel is currently paused due to storage relay expiration. This is a channel/integration issue, not a core-engine capability failure.
+    </div>
+
+    <h2>Services based on this experience</h2>
+    <div class="grid">
+      <div class="card"><b>Automation workflow systems</b>Queue-driven business workflow implementation.</div>
+      <div class="card"><b>Web dashboard + API integration</b>Operational visibility and control interfaces.</div>
+      <div class="card"><b>Distributed task orchestration</b>Multi-worker scheduling and reliability hardening.</div>
+    </div>
+  </div>
+</body>
+</html>

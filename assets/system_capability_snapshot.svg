@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860">
+<style>.t{font-family:Arial,sans-serif;fill:#0f172a}.h{font-size:34px;font-weight:700}.s{font-size:18px}.card{fill:#f8fafc;stroke:#cbd5e1;stroke-width:2}.good{fill:#ecfdf5;stroke:#10b981}.mid{fill:#fffbeb;stroke:#f59e0b}.bad{fill:#fef2f2;stroke:#ef4444}</style>
+<text x="50" y="60" class="t h">System Capability Snapshot</text>
+<text x="50" y="95" class="t s">Portfolio Evidence (Non-sensitive)</text>
+<rect x="60" y="130" width="620" height="150" rx="14" ry="14" class="card good"/>
+<text x="90" y="180" class="t s">Availability Strategy</text>
+<text x="90" y="215" class="t s">Single worker failure does not stop job processing.</text>
+<text x="90" y="245" class="t s">Coordinator routes tasks to healthy nodes.</text>
+<rect x="720" y="130" width="620" height="150" rx="14" ry="14" class="card good"/>
+<text x="750" y="180" class="t s">Scheduling Strategy</text>
+<text x="750" y="215" class="t s">Performance-aware dispatch: faster nodes take more tasks.</text>
+<text x="750" y="245" class="t s">Per-node traffic control prevents overrun.</text>
+<rect x="60" y="320" width="620" height="150" rx="14" ry="14" class="card good"/>
+<text x="90" y="370" class="t s">Monitoring & Alerts</text>
+<text x="90" y="405" class="t s">Heartbeat TTL checks + email alert in seconds.</text>
+<text x="90" y="435" class="t s">Alert cooldown avoids duplicate spam.</text>
+<rect x="720" y="320" width="620" height="150" rx="14" ry="14" class="card mid"/>
+<text x="750" y="370" class="t s">Current Limitation</text>
+<text x="750" y="405" class="t s">Public channel paused due to storage relay expiration.</text>
+<text x="750" y="435" class="t s">Core backend workflow remains reusable.</text>
+<rect x="60" y="510" width="1280" height="220" rx="14" ry="14" class="card"/>
+<text x="90" y="560" class="t s">Scalability</text>
+<text x="90" y="595" class="t s">Add nodes by deploying worker package and dependencies.</text>
+<text x="90" y="630" class="t s">From 4 workers to N workers with minimal architecture changes.</text>
+<text x="90" y="680" class="t s">Use Cases: ID-photo pipelines, queue-driven image processing, distributed automation services.</text>
+</svg>
